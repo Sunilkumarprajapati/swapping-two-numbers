@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{char operator;
+int a,b,c,d,e;
+printf("enter a operator");
+scanf("%c",&operator);
+printf("enter the values to operation");
+scanf("%d%d%d%d",&a,&b,&c,&d);
+switch(operator)
+{
+case'+':
+e= a+b+c+d;
+printf("%d",e);
+break;
+case'-':
+e=a-b-c-d;
+printf("%d",e);
+break;
+case'/':
+e=a/b/c/d;
+printf("%d",e);
+break;
+case'*':
+e= a*b*c*d;
+printf("%d",e);
+break;}
+return 0;}
