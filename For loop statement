@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{int a,b,i,j,n;
+printf("enter the values of a and b :-");
+
+scanf("%d",&a);
+scanf("%d",&b);
+printf("enter the size of loof :- ");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{for(j=0;j<=i;j++)
+printf("%d%d",a,b);
+
+printf("\n");
+
+}
+
+return 0;}
